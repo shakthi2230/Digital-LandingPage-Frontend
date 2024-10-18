@@ -1,0 +1,110 @@
+/* LandingPage.css */
+.carousel-title {
+  font-size: 2.5rem; /* Larger font size for desktop */
+}
+
+.carousel-content {
+  font-size: 1.25rem; /* Medium size for desktop */
+}
+/* Example styles to enhance responsiveness */
+.hero-section {
+  padding: 40px 15px; /* Add horizontal padding */
+}
+
+.carousel-section .carousel-item {
+  height: 400px; /* Ensure consistent height */
+}
+
+.features-section h2, .tab-section h2, .additional-section h2, .contact-section h2 {
+  font-size: 2.5rem; /* Adjust heading sizes for smaller screens */
+}
+.tab-section .react-icons {
+  font-size: 1.5rem; /* Adjust icon size */
+  color: #ffffff; /* Adjust icon color */
+}
+/* TabSection.css */
+
+.tab-custom {
+  padding: 15px;
+  border: none; /* Remove default border */
+}
+
+/* Text colors for each tab */
+.benefits-tab .nav-link {
+  color: #1abc9c; /* Color for Benefits tab text */
+}
+
+.testimonials-tab .nav-link {
+  color: #3498db; /* Color for Testimonials tab text */
+}
+
+.pricing-tab .nav-link {
+  color: #e74c3c; /* Color for Pricing tab text */
+}
+
+/* Active tab styles */
+.nav-tabs .nav-link.active {
+  color: #333; /* Dark text for active tab */
+}
+/* LandingPage.css */
+.custom-input {
+  border: none; /* Remove border */
+  border-bottom: 2px solid #ccc; /* Add underline */
+  border-radius: 0; /* Remove rounded corners */
+  box-shadow: none; /* Remove any shadow */
+  height: 45px; /* Set the height for the input fields */
+  padding: 10px; /* Add some padding for better appearance */
+}
+
+.custom-input:focus {
+  outline: none; /* Remove outline on focus */
+  border-bottom: 2px solid blue; /* Change underline color on focus */
+  box-shadow: none; /* Remove shadow on focus */
+}
+
+.contact-section {
+  background-color: #f9f9f9; /* Subtle background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.contact-section h2 {
+  color: #333; /* Heading color */
+}
+
+.contact-section .btn {
+  background-color: #28a745; /* Green color for button */
+  border: none; /* Remove border */
+}
+
+.contact-section .btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+
+
+
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 2rem; /* Adjust title size for mobile */
+  }
+
+  .carousel-content {
+    font-size: 1.1rem; /* Adjust content size for mobile */
+  }
+  .hero-section h2 {
+    font-size: 1.75rem; /* Smaller font size on mobile */
+  }
+  
+  .features-section h2 {
+    font-size: 2rem; /* Smaller font size on mobile */
+  }
+  
+  .carousel-item h3 {
+    font-size: 1.5rem; /* Adjust size */
+  }
+  
+  .carousel-item p {
+    font-size: 1rem; /* Adjust size */
+  }
+}
